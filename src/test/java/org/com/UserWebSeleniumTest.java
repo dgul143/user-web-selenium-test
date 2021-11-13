@@ -24,7 +24,7 @@ public class UserWebSeleniumTest {
      static  WebDriver driver = null;
 	
 	@BeforeClass
-	public static void setup() {
+	public static void setup(); {
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\Sama-Java-Training\\Selenium\\Browser-Drivers\\chromedriver_win32\\chromedriver.exe");  
 		
