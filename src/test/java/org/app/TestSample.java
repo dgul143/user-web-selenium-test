@@ -14,4 +14,6 @@ public class TestSample {
 	 public void testSample(){
 		  Assert.assertEquals(true, false);
 	 }
+
+	 System.out.println("");
 }
